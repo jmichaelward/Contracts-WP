@@ -1,0 +1,17 @@
+{
+    "name": "jmichaelward/contracts-wp",
+    "description": "PHP contracts for WordPress.",
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "Jmichaelward\\ContractsWp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jeremy Ward",
+            "email": "jeremy@jmichaelward.com"
+        }
+    ],
+    "require": {}
+}
