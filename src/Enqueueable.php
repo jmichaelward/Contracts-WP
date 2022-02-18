@@ -13,6 +13,8 @@ namespace JMichaelWard\ContractsWP;
 interface Enqueueable {
 	/**
 	 * Enqueue an object's assets with WordPress.
+	 *
+	 * @return void
 	 */
-	public function enqueue();
+	public function enqueue(): void;
 }

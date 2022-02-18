@@ -16,8 +16,6 @@ namespace JMichaelWard\ContractsWP;
 interface Hydratable {
 	/**
 	 * Hydrates an object with data that couldn't or shouldn't have been initialized in the constructor.
-	 *
-	 * @return mixed
 	 */
 	public function hydrate();
 }

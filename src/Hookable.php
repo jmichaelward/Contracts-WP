@@ -12,6 +12,8 @@ namespace JMichaelWard\ContractsWP;
 interface Hookable {
 	/**
 	 * Register an object's hooks with WordPress.
+	 *
+	 * @return void
 	 */
 	public function register_hooks(): void;
 }
